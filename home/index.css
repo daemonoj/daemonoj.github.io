@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://github.com/daemonoj/daemonoj.github.io/blob/2083c37cab5f466acc60fbac3a522b332f871928/img/DSC_0111.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/DSC_0111.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
