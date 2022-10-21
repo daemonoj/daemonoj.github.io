@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/DSC_0111.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/DSC_0494.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -79,8 +79,8 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(, 76, 182);
-    font-size:70px;
+    color:rgb(180, 50, 50);
+    font-size:50px;
     text-decoration:underline;
 }
 #about {
@@ -171,7 +171,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(100,50,50);
     color:#fff;
     z-index:9;
     position:fixed;
