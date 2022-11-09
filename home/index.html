@@ -44,7 +44,6 @@
         </table>
     </div>
     <div id="work_container" class="container">
-        <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
         <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
         <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
@@ -63,11 +62,14 @@
             <button class="btn_one">button 1</button>
             <button class="btn_two">button 2</button>
         </section>
+        <div id="menu">
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
     </div>
     <div id="about_container" class="container">
-            <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-            <!-- <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a> -->
-            <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+        <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+        <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
             
             <h1>about.</h1>
@@ -86,6 +88,10 @@
                     i do eveything ;)
                 </p>
             </section>
+            <div id="menu">
+                <a onclick="showabout()">about</a>
+                <a onclick="showcontact()">contact</a>
+            </div>
         </div>
           <div id="contact_container" class="container">
             <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
@@ -105,6 +111,11 @@
                     </form> 
                 </p>
             </section>
+            <div id="menu">
+                <a onclick="showabout()">about</a>
+                <a onclick="showwork()">work</a>
+                <a onclick="showcontact()">contact</a>
+            </div>
         </div>
         <div id="footer">
             random stuff noone cares about <br> <a href="https://daemonoj.github.io">Daemon OJ</a>
